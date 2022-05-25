@@ -1,0 +1,790 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>phyladelphia inquirer</title>
+    <meta name="description" content="Web magazine">
+    <<!-- easier search -->
+    <meta name="keywords" content="magazine,news,ppm">
+    <<!--to make media query function properly adapting to the screen size-->
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('.menu__icon').click(function(){
+                $('body').toggleClass('menu_shown');
+            });
+        });
+    </script>
+</head>
+<body>
+    <div class="">
+    <header>
+        <div class="navbar">
+            <div class="global-app-bar">
+                    <div class="app-bar ">
+                    <div class="grid-column" >
+                        <div class="timestamp-container nowrap my-auto">
+                            <div class="current-time hidden-mobile mb-xxs" aria-label="Thursday,May 12,2022">Thursday,May 12,2022</div>
+                            <a class="today's paper hidden-mobile bold no-underline">Today's paper</a>
+                            <div class="hidden-desktop">
+                                <div class="icons-wrapper flex">
+                                    <div class="hamburger-menu ">
+                                        <a class="hamburger-icon"><span></span></a>
+                                    </div>
+                                    <div class="search-bar inline-block">
+                                        <div class="relative">
+                                            <button class="relative pointer bg-trasparent p-2">
+                                                <div class="inq-icon inq-icon--small search-icon">
+                                                    <svg href="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24"></svg>
+                                                </div>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="logo-container">
+                            <div class="logo-phylly">
+                                <a href="https://placeholder.com/"><img src="https://via.placeholder.com/500x63?text=The+Pyladelphia+Inquirer"></a>
+                            </div>
+                        </div>
+                        <div class="right-side">sign in</div>
+                    </div>
+                </div>
+                    <div class="topic-bar hidden-mobile">
+                    <ul class="topics-list default-wrapper grid hidden-mobile">
+                        <div class="icons-wrapper flex">
+                            <div class="hamburger-menu ">
+                                <a class="hamburger-icon"><span></span></a>
+                            </div>
+                            <div class="search-bar inline-block">
+                                <div class="relative">
+                                    <button class="relative pointer bg-trasparent p-2">
+                                        <div class="inq-icon inq-icon--small search-icon">
+                                            <svg href="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24"></svg>
+                                        </div>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="nav-wrapper hidden-mobile items-center flex overflow-hidden">
+                            <div class="flex flex-wrap overflow-hidden hidden-mobile h-4">
+                                <a href="" class="topic-bar item no underline">News</a>
+                                <a href="" class="topic-bar item no underline">Sports</a>
+                                <a href="" class="topic-bar item no underline">Business</a>
+                                <a href="" class="topic-bar item no underline">Opinion</a>
+                                <a href="" class="topic-bar item no underline">politics</a>
+                                <a href="" class="topic-bar item no underline">Entertainment</a>
+                                <a href="" class="topic-bar item no underline">life</a>
+                                <a href="" class="topic-bar item no underline">Food</a>
+                                <a href="" class="topic-bar item no underline">Health</a>
+                                <a href="" class="topic-bar item no underline">Real Estate</a>
+                                <a href="" class="topic-bar item no underline">Obituaries</a>
+                                <a href="" class="topic-bar item no underline">Job</a>
+                            </div>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main id="main" tabindex="-1" class="homepage max-w-screen mx-auto">
+        <div class="homepage-top">
+        <section class="grid gap-4 flex-grid top-body sm:mx-md">
+            <div class="grid gap-6 auto-rows-min grid-cols-1 sm:mx-md">
+                <div class="box-border relative ">
+                        <div class="inq-story__header">
+                                <div class="inq-image figure">
+                                    <img class=".inq-image.visible-inq-image" src="https://via.placeholder.com/300x200?text=Story-Image">
+                                </div>
+                        </div>
+                    <div class="image-title">
+                        <h3>Second image of site</h3>
+                    </div>
+                    <div class="image-description">
+                        <h3>this is a description for the placeholder image</h3>
+                    </div>
+                    <div><span class="live-rec">⬤</span>Live Updates</div>
+                                    <a href="" data-link-type="" class="inq-story__link no-underline">
+                                    <h2 class="inq-headline no-underline">Politics</h2>
+                                    </a>
+                    <div class="inq-story-tease">
+                                    <div class="inq-card-footer no-share-tool no-underline">
+                                        <div class="inq-card-timestamp--label">Updated&nbsp;</div>
+                                    <div class="inq-card--date">2 hours ago</div>
+                                </div>
+                            </div>
+                    <nav class="inq-story-timeline no-underline">
+                                    <ol class="timeline no-underline">
+                                        <li><article>
+                                                <div class="bullet">
+                                                    <div class="inq-icon inq-icon--small inq-icon--circle">
+                                                        <svg aria-hidden="true" viewBox="0 0 32 32" focusable="false">
+                                                            <circle stroke="none" cx="16" cy="16" r="10"></circle>
+                                                        </svg>
+                                                    </div>
+                                                </div>
+                                                <h3><a href="circle" class="no-underline">Great weather expected across Pennsylvania for Tuesday’s primary</a></h3>
+                                        </article></li>
+                                        <li><article>
+                                            <div class="bullet">
+                                                <div class="inq-icon inq-icon--small inq-icon--circle">
+                                                    <svg aria-hidden="true" viewBox="0 0 32 32" focusable="false">
+                                                        <circle stroke="none" cx="16" cy="16" r="10"></circle>
+                                                    </svg>
+                                                </div>
+                                            </div><h3><a href="" class="no-underline">Article 2</a></h3></article></li>
+                                        <li><article>
+                                            <div class="bullet">
+                                                <div class="inq-icon inq-icon--small inq-icon--circle">
+                                                    <svg aria-hidden="true" viewBox="0 0 32 32" focusable="false">
+                                                        <circle stroke="none" cx="16" cy="16" r="10"></circle>
+                                                    </svg>
+                                                </div>
+                                            </div><h3><a href="" class="no-underline">Article 3</a></h3></article></li>
+                                        <li><article>
+                                        <div class="bullet">
+                                            <div class="inq-icon inq-icon--small inq-icon--circle">
+                                                <svg aria-hidden="true" viewBox="0 0 32 32" focusable="false">
+                                                    <circle stroke="none" cx="16" cy="16" r="10"></circle>
+                                                </svg>
+                                            </div>
+                                        </div>
+                                        <h3><a href="" class="no-underline">Article 4</a></h3></article></li>
+                                </ol>
+                        </nav>
+                </div>
+         </div>
+            <div class="grid gap-6 grid-cols-1 auto-rows-min sm:mx-md">
+                <div class="box-border relative">
+                    <div class="inq-story__header">
+                        <a href="">
+                            <div class="inq-image figure">
+                                <figure class="inq-card-figure-3x2 box-fit">
+                                    <div class="inq-image">
+                                        <img class=".inq-image.visible-inq-image" src="https://via.placeholder.com/300x200?text=Story-Image">
+                                    </div>
+                                </figure>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="image-title">
+                        <h3>Second image of site</h3>
+                    </div>
+                    <div class="image-description">
+                        <h3>this is a description for the placeholder image</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="grid gap-6 grid-cols-1 auto-rows-min">
+                       <div class="box-border relative ">
+                        <div class="inq-card inq-card--latest-headlines no-shadow">
+                            <div class="inq-headline-list">
+                                <div class="headline-header-wrapper expanded ">
+                                    <div class="inq-eyebrow ">
+                                        <span class="headline-title-text no-underline">The Latest</span>
+                                        <span class="headline-toggle-icon">
+                                            <svg xmlns="" viewBox="0 0 24 24" width="19" height="19">
+                                            <path d="" fill="none"></path><path d="" fill="#none"></path>
+                                            </svg>
+                                        </span>
+                                    </div>
+                                </div>
+                                <ul class="container-wrapper ">
+                                    <li class="inq-headline-item ">
+                                        <h3><a href="" data-link-type="headline-list-card" class="inq-headline-list-title">🗳️  Your guide to today’s Pa. primary | Morning Newsletter</a>
+                                                <span class="inq-headline-list-byline">
+                                                    <span class="inq-card--date">x minutes ago</span>
+                                            </span>
+                                        </h3>
+                                    </li>
+                                    <li class="inq-headline-item ">
+                                        <h3><span class="inq-headline-list-byline">
+                                            <a href="" class="inq-headline-list-title"> another news</a>
+                                                <span class="inq-card--date">an hour ago</span>
+                                            </span>
+                                        </h3>
+                                    </li>
+                                    <li class="inq-headline-item ">
+                                        <h3><span class="inq-headline-list-byline">
+                                            <a href="" class="inq-headline-list-title"> more news</a>
+                                                <span class="inq-card--date">x hours ago</span>
+                                            </span>
+                                        </h3>
+                                    </li>
+                                    <li class="inq-headline-item ">
+                                        <h3><span class="inq-headline-list-byline">
+                                            <a href="" class="inq-headline-list-title"> more news</a>
+                                                <span class="inq-card--date">x hours ago</span>
+                                            </span>
+                                        </h3>
+                                    </li>
+                                    <li class="inq-headline-item ">
+                                        <h3><span class="inq-headline-list-byline">
+                                            <a href="" class="inq-headline-list-title">something about somethings</a>
+                                                <span class="inq-card--date">30 minutes ago</span>
+                                            </span>
+                                        </h3>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                       </div>
+                   </div>
+        </section>
+    </div>
+        <div class="homepage-middle">
+        <div class=".sm\:mx-md mx-bot-xxl">
+            <div class="border-top-solid"></div>
+            <div class="grid-cols-5 grid content-center">
+                <div class="news-argument col-span-4">
+                    <div class="argument-title-bar grid">
+                        <div class="argument-title">
+                            <a href="" class="bold-title-text pointer no-underline">2022 Elections</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid justify-items-end even-spacing">
+                    <div class="More text-primary">
+                        <a href="" class="pointer text-specs no-underline bg-image">More</a>
+                    </div>
+                </div>
+            </div>
+            <div class=".md\:grid-rows-1 grid gap-2">
+                <div class="block inq-card-story inq-card-story--compact">
+                        <div class="inq-card__inner">
+                            <div class="inq-card-content">
+                                <h2 class="inq-headline .md\:text-xxl font-medium">Title of link that introduces the story about politics</h2>
+                                <div class="inq-story-tease">
+                                    <span>
+                                        <p>Someone had a pacemaker put in after suffering a stroke less than a week before
+                                        the primary vote.
+                                        He said in a statement that he is "feeling great" but under doctor's orders to rest.</p>
+                                    </span>
+                                </div>
+                                <div class="inq-card-footer">
+                                    <div class="inq-author inq-author-compact bold-title-text">
+                                        <span><a href="">Author of story</a></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="inq-story__header ">
+                                    <div class="figure-rel">
+                                        <img class=" .inq-image.visible-inq-image" src="https://via.placeholder.com/300x200?text=Story-Image">
+                                    </div>
+                            </div>
+                        </div>
+                </div>
+                <div class="border-top-solid border-bot"></div>
+                <div class="grid grid-rows-auto various-news  sm:grid-cols-2 sm:mx-md">
+                    <div class="grid grid-rows-auto border-right">
+                        <div class="block inq-card-story inq-card-story--compact padding-15">
+                            <div class="inq-card__inner">
+                                <div class="inq-card-content">
+                                    <h2 class="inq-headline .md\:text-xxl font-medium">Title of link that introduces the story about politics</h2>
+                                    <div class="inq-card-footer">
+                                        <div class="inq-author inq-author-compact bold-title-text">
+                                            <span><a href="">Author of story</a></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="inq-story__header">
+                                    <a href="">
+                                        <div class="inq-image figure">
+                                            <img style="float: right" class=".inq-image.visible-inq-image" src="https://via.placeholder.com/150?text=Story-Image">
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="border-bot"></div>
+                        <div class="block inq-card-story inq-card-story--compact padding-15">
+                            <div class="inq-card__inner">
+                                <div class="inq-card-content">
+                                    <h2 class="inq-headline .md\:text-xxl font-medium">Title of link that introduces the story about politics</h2>
+                                    <div class="inq-card-footer">
+                                        <div class="inq-author inq-author-compact bold-title-text">
+                                            <span><a href="">Author of story</a></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="inq-story__header">
+                                    <a href="">
+                                        <div class="inq-image figure">
+                                                    <img style="float: right" class=".inq-image.visible-inq-image" src="https://via.placeholder.com/150?text=Story-Image">
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="border-bot"></div>
+                    </div>
+                    <div class="grid grid-rows-auto">
+                        <div class="block inq-card-story inq-card-story--compact padding-15">
+                            <div class="inq-card__inner">
+                                <div class="inq-card-content">
+                                    <h2 class="inq-headline .md\:text-xxl font-medium">Title of link that introduces the story about politics</h2>
+                                    <div class="inq-card-footer">
+                                        <div class="inq-author inq-author-compact bold-title-text">
+                                            <span><a href="">Author of story</a></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="inq-story__header">
+                                    <a href="">
+                                        <div class="inq-image figure">
+                                            <img style="float: right" class=".inq-image.visible-inq-image" src="https://via.placeholder.com/150?text=Story-Image">
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="border-bot"></div>
+                        <div class="block inq-card-story inq-card-story--compact padding-15">
+                            <div class="inq-card__inner">
+                                <div class="inq-card-content">
+                                    <h2 class="inq-headline .md\:text-xxl font-medium">Title of link that introduces the story about politics</h2>
+                                    <div class="inq-card-footer">
+                                        <div class="inq-author inq-author-compact bold-title-text">
+                                            <span><a href="">Author of story</a></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="inq-story__header">
+                                    <a href="">
+                                        <div class="inq-image figure">
+                                            <img style="float: right" class=".inq-image.visible-inq-image" src="https://via.placeholder.com/150?text=Story-Image">
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="border-bot"></div>
+                    </div>
+                </div>
+            </div>
+            <section class="sm:mx-md mx-bot-xxl">
+            <div class="grid-cols-5 grid content-center">
+                <div class="news-argument col-span-4">
+                    <div class="border-top-solid"></div>
+                    <div class="argument-title-bar grid-cols-4">
+                        <div class="argument-title col-span-3">
+                            <a href="" class="bold-title-text pointer no-underline">Sport</a>
+                            <div class="grid justify-items-end even-spacing">
+                            </div>
+                        </div>
+                        <div class="More grid text-primary">
+                            <a href="" class="pointer text-specs no-underline bg-transparent">More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="grid grid-cols-5 grid-more-stories col-span2">
+                <div class="order-first col-span-4">
+                    <div class="grid grid-cols-4 grid-rows-auto gap-6">
+                        <div class="default-wrapper col-span2 row-span2">
+                                <div class="inq-story__header">
+                                    <a href="">
+                                        <div class="inq-image figure">
+                                            <img class=".inq-image.visible-inq-image" src="https://via.placeholder.com/300x200?text=Story-Image">
+                                        </div>
+                                    </a>
+                                </div>
+                            <div class="image-description">
+                            <h3>this is a description for the placeholder image</h3>
+                        </div>
+                            <div class="inq-card-footer">
+                                <div class="inq-author inq-author-compact bold-title-text">
+                                    <span><a href="">Author of story</a></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="default-wrapper">
+                            <div class="story__header">
+                                <a href="">
+                                    <div class="figure-rel">
+                                        <img src="https://via.placeholder.com/150?text=Story-Image">
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="image-description">
+                                <h3>this is a description for the placeholder image</h3>
+                            </div>
+                            <div class="inq-card-footer">
+                            <div class="inq-author inq-author-compact bold-title-text">
+                                <span><a href="">Author of story</a></span>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="default-wrapper">
+                            <div class="inq-story__header">
+                                <a href="">
+                                    <div class="inq-image figure">
+                                        <img class=".inq-image.visible-inq-image" src="https://via.placeholder.com/150?text=Story-Image">
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="image-description">
+                                <h3>this is a description for the placeholder image</h3>
+                            </div>
+                            <div class="inq-card-footer">
+                                <div class="inq-author inq-author-compact bold-title-text">
+                                    <span><a href="">Author of story</a></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="default-wrapper">
+                            <div class="inq-story__header">
+                                <a href="">
+                                    <div class="inq-story-image figure">
+                                                <img class=".inq-image.visible-inq-image" src="https://via.placeholder.com/150?text=Story-Image">
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="image-description">
+                                <h3>this is a description for the placeholder image</h3>
+                            </div>
+                            <div class="inq-card-footer">
+                                <div class="inq-author inq-author-compact bold-title-text">
+                                    <span><a href="">Author of story</a></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="default-wrapper">
+                            <div class="inq-story__header">
+                                <a href="">
+                                    <div class="inq-image figure">
+                                        <img class=".inq-image.visible-inq-image" src="https://via.placeholder.com/150?text=Story-Image">
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="image-description">
+                                <h3>this is a description for the placeholder image</h3>
+                            </div>
+                            <div class="inq-card-footer">
+                                <div class="inq-author inq-author-compact bold-title-text">
+                                    <span><a href="">Author of story</a></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </section>
+            <section class="sm:mx-md mx-bot-xxl">
+                <div class="border-top-solid"></div>
+                <div class="grid-cols-5 grid content-center">
+                    <div class="news-argument col-span-4">
+                        <div class="argument-title-bar grid">
+                            <div class="argument-title">
+                                <a href="" class="bold-title-text pointer no-underline">Subscribed Newsletter</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid justify-items-end even-spacing">
+                        <div class="More text-primary">
+                            <a href="" class="pointer text-specs no-underline bg-image">Sign up</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid grid-cols-4 text-small">
+                    <div class="description-text col-span-4">
+                        <h2>subscribe to the news-letter to receive notification about news</h2>
+                    </div>
+                </div>
+                <div class="grid sm:grid-cols-2 gap-4 grid-cols-1">
+                    <div class="md:col-span-1 overflow-hidden ">
+                        <div class="font-medium sm:mx-md mx-bot-xxl">
+                            <div class="grid sm:grid-cols-2 gap-6 grid-rows-auto overflow-hidden">
+                                <div class="default-wrapper">
+                                    <div class="story__header">
+                                        <a href="">
+                                            <div class="figure-rel">
+                                                <img src="https://via.placeholder.com/150?text=Story-Image">
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="image-description">
+                                        <h3>this is a description for the image</h3>
+                                    </div>
+                                    <div class="inq-card-footer">
+                                        <div class="inq-author inq-author-compact bold-title-text">
+                                            <span><a href="">Author of story</a></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="default-wrapper">
+                                    <div class="story__header">
+                                        <a href="">
+                                            <div class="figure-rel">
+                                                <img src="https://via.placeholder.com/150?text=Story-Image">
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="image-description">
+                                        <h3>this is a description for the  image</h3>
+                                    </div>
+                                    <div class="inq-card-footer">
+                                        <div class="inq-author inq-author-compact bold-title-text">
+                                            <span><a href="">Author of story</a></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="md:col-span-1 overflow-hidden">
+                        <div class="font-medium sm:mx-md mx-bot-xxl">
+                            <div class="grid sm:grid-cols-2 gap-6 grid-rows-auto overflow-hidden">
+                                <div class="default-wrapper">
+                                    <div class="story__header">
+                                        <a href="">
+                                            <div class="figure-rel">
+                                                        <img src="https://via.placeholder.com/150?text=Story-Image">
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="image-description">
+                                        <h3>this is a description for the image</h3>
+                                    </div>
+                                    <div class="inq-card-footer">
+                                        <div class="inq-author inq-author-compact bold-title-text">
+                                            <span><a href="">Author of story</a></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="default-wrapper">
+                                    <div class="story__header">
+                                        <a href="">
+                                            <div class="figure-rel">
+                                                        <img src="https://via.placeholder.com/150?text=Story-Image">
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="image-description">
+                                        <h3>this is a description for the  image</h3>
+                                    </div>
+                                    <div class="inq-card-footer">
+                                        <div class="inq-author inq-author-compact bold-title-text">
+                                            <span><a href="">Author of story</a></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="grid grid-cols-1 grid-more-stories sm:mx-md mx-bot-xxl">
+                <div class="border-top-solid"></div>
+                <div class="col-span2 md:col-span-1">
+                        <div class="news-argument col-span-4">
+                            <div class="argument-title-bar grid">
+                                <div class="argument-title">
+                                    <a href="" class="bold-title-text pointer no-underline">Business</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid justify-items-end even-spacing">
+                            <div class="More text-primary">
+                                <a href="" class="pointer text-specs no-underline bg-image">More</a>
+                            </div>
+                        </div>
+                    </div>
+                <div class="grid grid-cols-4 gap-6">
+                <div class="default-wrapper">
+                    <div class="inq-card inq-card-story inq-card-story--compact">
+                            <div class="story__header">
+                                <a href="">
+                                    <div class="figure-rel">
+                                        <img src="https://via.placeholder.com/150?text=Story-Image">
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="spacing"></div>
+                            <div class="inq-card-content">
+                                <h2 class="inq-headline .md\:text-xxl font-medium">Title of link that introduces the story about politics</h2>
+                                <div class="inq-story-tease">
+                                    <span>
+                                        <p>Someone had a pacemaker put in after suffering a stroke less than a week before
+                                        the primary vote.
+                                        He said in a statement that he is "feeling great" but under doctor's orders to rest.</p>
+                                    </span>
+                                </div>
+                                <div class="inq-card-footer">
+                                    <div class="inq-author inq-author-compact bold-title-text">
+                                        <span><a href="">Author of story</a></span>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+                <div class="default-wrapper">
+                    <div class="inq-card inq-card-story inq-card-story--compact">
+                            <div class="story__header">
+                                <a href="">
+                                    <div class="figure-rel">
+                                        <img src="https://via.placeholder.com/150?text=Story-Image">
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="spacing"></div>
+                            <div class="inq-card-content">
+                                <h2 class="inq-headline .md\:text-xxl font-medium">Title of link that introduces the story about politics</h2>
+                                <div class="inq-story-tease">
+                                    <span>
+                                        <p>Someone had a pacemaker put in after suffering a stroke less than a week before
+                                        the primary vote.
+                                        He said in a statement that he is "feeling great" but under doctor's orders to rest.</p>
+                                    </span>
+                                </div>
+                                <div class="inq-card-footer">
+                                    <div class="inq-author inq-author-compact bold-title-text">
+                                        <span><a href="">Author of story</a></span>
+                                    </div>
+                                </div>
+                            </div>
+
+                    </div>
+                </div>
+                <div class="default-wrapper">
+                    <div class="inq-card inq-card-story inq-card-story--compact">
+                            <div class="story__header">
+                                <a href="">
+                                    <div class="figure-rel">
+                                                <img src="https://via.placeholder.com/150?text=Story-Image">
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="spacing"></div>
+                            <div class="inq-card-content">
+                                <h2 class="inq-headline .md\:text-xxl font-medium">Title of link that introduces the story about politics</h2>
+                                <div class="inq-story-tease">
+                                    <span>
+                                        <p>Someone had a pacemaker put in after suffering a stroke less than a week before
+                                        the primary vote.
+                                        He said in a statement that he is "feeling great" but under doctor's orders to rest.</p>
+                                    </span>
+                                </div>
+                                <div class="inq-card-footer">
+                                    <div class="inq-author inq-author-compact bold-title-text">
+                                        <span><a href="">Author of story</a></span>
+                                    </div>
+                                </div>
+                            </div>
+
+                    </div>
+                </div>
+                <div class="default-wrapper">
+                    <div class="inq-card inq-card-story inq-card-story--compact">
+                            <div class="story__header">
+                                <a href="">
+                                    <div class="figure-rel">
+                                                <img src="https://via.placeholder.com/150?text=Story-Image">
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="spacing"></div>
+                            <div class="inq-card-content">
+                                <h2 class="inq-headline .md\:text-xxl font-medium">Title of link that introduces the story about politics</h2>
+                                <div class="inq-story-tease">
+                                    <span>
+                                        <p>Someone had a pacemaker put in after suffering a stroke less than a week before
+                                        the primary vote.
+                                        He said in a statement that he is "feeling great" but under doctor's orders to rest.</p>
+                                    </span>
+                                </div>
+                                <div class="inq-card-footer">
+                                    <div class="inq-author inq-author-compact bold-title-text">
+                                        <span><a href="">Author of story</a></span>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+                </div>
+            </section>
+        </div>
+    </div>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-container grid-column">
+                <div class="footer-column">
+                    <div class="links-headline">About us</div>
+                    <div class="links-content">
+                        <ul class="column-mobile">
+                            <li><a href="" class="footer-link">link to something</a></li>
+                            <li><a href="" class="footer-link">link to something</a></li>
+                            <li><a href="" class="footer-link">link to something</a></li>
+                            <li><a href="" class="footer-link">link to something</a></li>
+                            <li><a href="" class="footer-link">link to something</a></li>
+                            <li><a href="" class="footer-link">link to something</a></li>
+                            <li><a href="" class="footer-link">link to something</a></li>
+                            <li><a href="" class="footer-link">link to something</a></li>
+                            <li><a href="" class="footer-link">link to something</a></li>
+                            <li><a href="" class="footer-link">link to something</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <div class="links-headline">News</div>
+                    <div class="links-content">
+                        <ul class="column-mobile">
+                            <li><a href="" class="footer-link">link to something</a></li>
+                            <li><a href="" class="footer-link">link to something</a></li>
+                            <li><a href="" class="footer-link">link to something</a></li>
+                            <li><a href="" class="footer-link">link to something</a></li>
+                            <li><a href="" class="footer-link">link to something</a></li>
+                            <li><a href="" class="footer-link">link to something</a></li>
+                            <li><a href="" class="footer-link">link to something</a></li>
+                            <li><a href="" class="footer-link">link to something</a></li>
+                            <li><a href="" class="footer-link">link to something</a></li>
+                            <li><a href="" class="footer-link">link to something</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <div class="links-headline">Marketplace</div>
+                    <div class="links-content">
+                        <ul class="column-mobile">
+                            <li><a href="" class="footer-link">link to something</a></li>
+                            <li><a href="" class="footer-link">link to something</a></li>
+                            <li><a href="" class="footer-link">link to something</a></li>
+                            <li><a href="" class="footer-link">link to something</a></li>
+                            <li><a href="" class="footer-link">link to something</a></li>
+                            <li><a href="" class="footer-link">link to something</a></li>
+                            <li><a href="" class="footer-link">link to something</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <div class="group">
+                        <div class="links-headline">content</div>
+                        <div class="links-content">
+                            <ul class="column-mobile">
+                                <li><a href="" class="footer-link">link to something</a></li>
+                                <li><a href="" class="footer-link">link to something</a></li>
+                                <li><a href="" class="footer-link"></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="group">
+                        <div class="links-headline">content</div>
+                        <div class="links-content">
+                            <ul class="column-mobile">
+                                <li><a href="" class="footer-link">link to something</a></li>
+                                <li><a href="" class="footer-link">link to something</a></li>
+                                <li><a href="" class="footer-link"></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    </div>
+</body>
+</html>
